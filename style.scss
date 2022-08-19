@@ -4,11 +4,21 @@ html{
   color: black;
   font-size: large;
   }
-  h1{
-    background-color: white;
-    display:flex;
+  @mixin font{
+    font-size: medium;
+    font-size: 20px;
+    padding: 30px;
+    color: white;
+  }
+ .flex{
+  display:flex;
   justify-content: center;
   align-items: center;
+ }
+    
+  h1{
+    background-color: white;
+    @extend .flex;
   }
   section{
     background-color: black;
@@ -24,9 +34,13 @@ html{
     font-style: italic;
      font-size:medium ;
      list-style-type:none;
-     display:flex;
-  justify-content: center;
-  align-items:flex-start;
+    @extend .flex;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-content: center;
   
   
   }
@@ -55,9 +69,7 @@ html{
   
   
   .parrafonosotros{
-    font-size: 20px;
-    padding: 30px;
-    color: white;
+    @include font;
   }
   
   .centrado{
@@ -66,18 +78,8 @@ html{
   justify-content: center;
   }
   
-  .grid-h2{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 20px;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    justify-content: center;
-  
-  }
-  
   p{
-    color: white;
+    @include font;
   }
   
   .email{
@@ -104,4 +106,5 @@ html{
     margin-bottom: 10px;
     padding: 10px;
   }
+
   
