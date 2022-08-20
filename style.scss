@@ -44,9 +44,10 @@ html{
   
   
   }
-  nav{
-    color: white;
-  }
+ .nav-2{ font-family: "fuente-nav";
+  color: white;
+font-size: xx-large; 
+ }
   .imagensuperior{
     width: 180px;
   }
@@ -107,4 +108,14 @@ html{
     padding: 10px;
   }
 
-  
+  .carrito{
+    width: 50px;
+  }
+  .img-footer{
+    width: 50px;
+  }
+
+  @font-face {
+    font-family: fuente-nav;
+    src: url("Freight Train Gangsta.ttf");
+  }
