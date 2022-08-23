@@ -31,7 +31,7 @@ h2 {
   grid-column-end: 4;
   justify-content: center; }
 
-.nav-2 {
+li {
   font-family: "fuente-nav";
   color: white;
   font-size: large; }
