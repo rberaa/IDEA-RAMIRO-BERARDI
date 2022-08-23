@@ -17,8 +17,21 @@ article{
 }
 textarea{
     width: 30px;
-}
 
+}
+section{
+    width:250px;
+}
+.nav-2{
+width: 200px; 
+}
+.img-footer{
+    width: 30px;
+}
+h2{
+    width:50px;
+    justify-content:center;
+}
 }
 
 /*GALAXY FOLD*/
