@@ -31,7 +31,7 @@ h2 {
   grid-column-end: 4;
   justify-content: center; }
 
-li {
+l {
   font-family: "fuente-nav";
   color: white;
   font-size: large; }
@@ -40,11 +40,14 @@ li {
   width: 180px; }
 
 .mockups {
-  width: 250px;
+  width: 200px;
   border-radius: 30px;
   margin-right: 30px;
   box-shadow: 0px 15px 25px black;
-  cursor: pointer; }
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
 
 img:hover {
   transform: scale(1.15); }
@@ -100,3 +103,8 @@ h4 {
 @font-face {
   font-family: fuente-nav;
   src: url("Freight Train Gangsta.ttf"); }
+
+img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }

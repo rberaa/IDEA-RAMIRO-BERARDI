@@ -1,12 +1,12 @@
 /*TABLET*/
 
-@media screen and (max-width: 615px){
+@media screen and (max-width: 768px){
     
 .imagensuperior{
     width: 100px;
 }
 .mockups{
-    width: 65px;
+    width: 50px;
 }
 article{
     size: 50%;
@@ -24,6 +24,7 @@ section{
 }
 
 }
+
 
 /*GALAXY FOLD*/
 @media screen and (max-width:280px){
