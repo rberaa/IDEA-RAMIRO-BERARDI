@@ -71,18 +71,10 @@ font-size: large;
   }
   
   
-  .parrafonosotros{
-    @include font;
-  }
-  
   .centrado{
     display:flex;
   align-items:center;
   justify-content: center;
-  }
-  
-  p{
-    @include font;
   }
   
   .email{
@@ -117,12 +109,7 @@ font-size: large;
     width: 50px;
   }
 
-  @font-face {
-    font-family: fuente-nav;
-    src: url("Freight Train Gangsta.ttf");
-  }
-  img{
-    display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+  
+.card-body{
+  color: white;
+}

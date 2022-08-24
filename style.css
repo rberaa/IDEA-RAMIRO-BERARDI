@@ -56,22 +56,10 @@ img {
   transition: all 500ms;
   position: relative; }
 
-.parrafonosotros {
-  font-size: medium;
-  font-size: 20px;
-  padding: 30px;
-  color: white; }
-
 .centrado {
   display: flex;
   align-items: center;
   justify-content: center; }
-
-p {
-  font-size: medium;
-  font-size: 20px;
-  padding: 30px;
-  color: white; }
 
 .email {
   width: 100%;
@@ -100,11 +88,5 @@ h4 {
 .img-footer {
   width: 50px; }
 
-@font-face {
-  font-family: fuente-nav;
-  src: url("Freight Train Gangsta.ttf"); }
-
-img {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap; }
+.card-body {
+  color: white; }
